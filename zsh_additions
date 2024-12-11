@@ -1,0 +1,7 @@
+alias goforit="cd ~/go/src/github.com/DataDog/dd-go"
+alias sourceit="cd ~/go/src/github.com/DataDog/dd-source"
+
+export PROMPT='%(!.%{%F{yellow}%}.)$USER@%{$fg[white]%}%M ${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
+
+# github token
+export GITLAB_TOKEN=$(pass gitlab_token)
